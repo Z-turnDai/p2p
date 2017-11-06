@@ -1,0 +1,182 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>蓝源Eloan-P2P平台->我要借款</title>
+	<link rel="stylesheet" href="js/bootstrap-3.3.2-dist/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/core.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery/jquery-2.1.3.js"></script>
+	<script type="text/javascript" src="js/bootstrap-3.3.2-dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/plugins/jquery.twbsPagination.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.form.js"></script>
+<script type="text/javascript" src="js/plugins-override.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var searchForm = $("#searchForm");
+		var gridBody = $("#gridBody");
+		searchForm.ajaxForm(function(data){
+			gridBody.hide();
+			gridBody.html(data);
+			gridBody.show(500);
+		}).submit();
+		
+		$("input[name=bidRequestState]").change(function(){
+			searchForm.submit();
+		});
+	});
+</script>
+</head>
+<body>
+	<!-- 网页头信息 -->
+	<div class="el-header" >
+		<div class="container" style="position: relative;">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">首页</a></li>
+				<!--未登录
+				<li><a href="login.html">登录</a></li>
+				<li><a href="register.html">快速注册</a></li>
+-->
+				<!--已登录-->
+				<li>
+					<a class="el-current-user" href="personal.html">
+						小强
+					</a>
+				</li>
+				<li>
+					<a  href="recharge.html">
+						账户充值
+					</a>
+				</li>
+				<li>
+					<a  href="logout.html">
+						注销
+					</a>
+				</li>
+				<li><a href="#">帮助</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<!-- 网页导航 -->
+	<div class="navbar navbar-default el-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/index.html">
+					<img alt="Brand" src="images/logo.png">
+				</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">首页</a></li>
+				<li class="active"><a href="invest.html">我要投资</a></li>
+				<li><a href="borrow.html">我要借款</a></li>
+				<li><a href="personal.html">个人中心</a></li>
+				<li><a href="#">新手指引</a></li>
+				<li><a href="#">关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 网页内容 -->
+	<div class="container">
+		<h4 class="page-title">投资列表</h4>
+		<form action="invest_list.html" id="searchForm">
+			<div style="margin: 20px 0px;">
+					<span class="text-muted">标的状态</span><div style="margin-left: 30px" class="btn-group" data-toggle="buttons">
+				  <label class="btn btn-default active">
+				    <input type="radio" name="bidRequestState" value="-1" autocomplete="off" checked />&emsp;全部&emsp;
+				  </label>
+				  <label class="btn btn-default">
+				    <input type="radio" name="bidRequestState" value="2" autocomplete="off" />&emsp;招标中&emsp;
+				  </label>
+				  <label class="btn btn-default">
+				    <input type="radio" name="bidRequestState" value="8" autocomplete="off" />&emsp;还款中&emsp;
+				  </label>
+				</div>
+			</div>
+		</form>
+		<table class="table el-table table-hover">
+			<thead id="gridHead">
+				<tr>
+					<th>借款人</th>
+					<th width="180px">借款标题</th>
+					<th>年利率</th>
+					<th>金额</th>
+					<th>还款方式</th>
+					<th>进度</th>
+					<th width="80px">操作</th>
+				</tr>
+			</thead>
+			<tbody id="gridBody">
+			<tr>
+				<td>zs</td>
+				<td>给我2000度过难关</td>
+				<td class="text-info"> 10.00%
+				</td>
+				<td class="text-info">2,000.00</td>
+				<td>
+
+					按月分期还款
+
+
+
+				</td>
+				<td>
+					<div class="">
+
+
+
+						100.00%
+					</div>
+				</td>
+				<td><a class="btn btn-danger btn-sm" href="borrow_info.html?id=7">查看</a></td>
+			</tr>
+			</tbody>
+		</table>
+		<div style="text-align: center;">
+			<ul id="pagination" class="pagination"></ul>
+		</div>
+	</div>
+
+	<!-- 网页版权 -->
+	<!--<link rel="copyright" type="text/html" href="tpl/⑤footer-tpl.html">-->
+	<div class="row el-footer">
+		<div class="container">
+			 <div class="col-sm-8">
+            <p>专业IosJava培训、PHP培训、Android培训机构</p>
+            <p>版权所有：&emsp;2017广州小码哥教育科技有限公司</p>
+            <p>地&emsp;&emsp;址：&emsp;广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+            <p>电&emsp;&emsp;话：&emsp;020-22092009
+                邮箱：&emsp;xiaomagehr@520it.com</p>
+            <p>
+                <a href="http://www.miitbeian.gov.cn">ICP备案 ：粤ICP备字15045471</a>&emsp;&emsp;<a
+                    href="http://www.gaj.chengdu.gov.cn">穗公网安备：44010650010086</a>
+            </p>
+            <div style="display: inline-block; overflow: hidden; float: left;"></div>
+        </div>
+			<div class="col-sm-2">
+				<div>
+					<p
+							style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微博：</p>
+					<a href="http://t.qq.com/it-source" target="_blank"> <img
+							src="images/tecent.png" alt="Responsive image">
+					</a> <a href="http://weibo.com/cditcast" target="_blank"> <img
+						src="images/sina.png" alt="Responsive image">
+				</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div>
+					<p
+							style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微信：</p>
+					<img src="images/wx.jpg" alt="Responsive image"
+						 class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

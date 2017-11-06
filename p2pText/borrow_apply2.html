@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>p2p金融平台</title>
+    <!-- Bootstrap -->
+    <link href="lib/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/core.css">
+    <link rel="stylesheet" href="lib/bower_components/font-awesome/css/font-awesome.css">
+    <style>
+        .rightBox{
+            width: 300px;
+            border: 1px solid #CCCCCC;
+            padding-left: 30px;
+            padding-top: 15px;
+            border-radius: 4px;
+            box-shadow: 1px 1px 20px #ddd;
+            position: absolute;
+            left: 57%;
+            top: 260px;
+        }
+        body{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="borrow_apply2">
+    <!--上部分-->
+    <div class="top container el-tip-info">
+    <h3>信用借款</h3>
+    <p>
+        <a href=""><span class="text-info">授信额度：</span></a>
+        <a href=""><span class="text-info">可借金额：</span></a></p>
+</div>
+    <!--下部分-->
+    <div class="last container">
+        <div class="page-header lead">
+            借款信息
+            <label class="label label-primary">
+                信用标
+            </label>
+        </div>
+        <form action="">
+            <div class="form-group">
+                <label for="a2" class="col-sm-3 control-label">
+                   借款金额
+                </label>
+                <div class="col-sm-3  input-group">
+                    <input class="form-control" id="a2" name="bidRequestAmount" />
+                    <span class="input-group-addon">元</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="a1" class="col-sm-3 control-label">
+                    借款利息
+                </label>
+                <div class="col-sm-3  input-group">
+                    <input class="form-control" name="bidRequestAmount" id="a1"/>
+                    <span class="input-group-addon">%</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">
+                    借款限期
+                </label>
+                <div class="col-sm-3  input-group">
+                    <!--<input class="form-control" name="bidRequestAmount" value="1" />-->
+                    <select class="form-control" name="monthes2Return"  >
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                        <option value="6">6</option>
+                        <option value="9">9</option>
+                        <option value="12">12</option>
+                        <option value="11">24</option>
+                    </select>
+                    <span class="input-group-addon">月</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">
+                   还款方式
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 按月分期
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 按月到期
+                </label>
+
+
+            </div>
+            <div class="form-group">
+                <label for="a4" class="col-sm-3 control-label" for="a4">
+                    最小投标
+                </label>
+                <div class="col-sm-3  input-group">
+                    <input class="form-control" name="bidRequestAmount" id="a4"/>
+                    <span class="input-group-addon">元</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">
+                    投标奖金
+                </label>
+                <div class="col-sm-3  input-group">
+                    <input class="form-control" name="bidRequestAmount"  value="0"/>
+                    <span class="input-group-addon">%</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">
+                    借款期限
+                </label>
+                <div class="col-sm-3  input-group">
+                    <!--<input class="form-control" name="bidRequestAmount" value="1" />-->
+                    <select class="form-control" name="monthes2Return"  id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+
+                    </select>
+                    <span class="input-group-addon">天</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="a5" class="col-sm-3 control-label">借款标题</label>
+                <div  class="col-sm-6 input-group"><input type="text" id="a5" name="title" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="a" class="col-sm-3 control-label">借款描述</label>
+                <div  for= "a" class="col-sm-6 input-group">
+                    <textarea name="" id="a"  rows="4" class="form-control" style="resize: none;"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary col-lg-offset-3" type="submit" data-loading-text="提交">
+                    提交申请
+                </button>
+            </div>
+            <div class="rightBox" >
+                   <h4>相关费用</h4>
+                    <p class="text-info">利息 --</p>
+                    <p class="text-info">奖金 --</p>
+                    <p class="text-info">管理费 --</p>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="lib/bower_components/jquery.bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+10
+
+dir
+0
+http://169.254.123.172:81/svn/p2p/Team1/trunk/Code/lib/bootstrap
+http://169.254.123.172:81/svn/p2p
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+cc2b7638-5017-b24c-a014-9a95945b4079
+
+nuget
+dir
+
+
+
+add
+
+LICENSE
+file
+
+
+
+add
+
+ISSUE_TEMPLATE.md
+file
+
+
+
+add
+
+CHANGELOG.md
+file
+
+
+
+add
+
+bower.json
+file
+
+
+
+add
+
+fonts
+dir
+
+
+
+add
+
+README.md
+file
+
+
+
+add
+
+grunt
+dir
+
+
+
+add
+
+Gemfile.lock
+file
+
+
+
+add
+
+package.json
+file
+
+
+
+add
+
+dist
+dir
+
+
+
+add
+
+.bower.json
+file
+
+
+
+add
+
+package.js
+file
+
+
+
+add
+
+less
+dir
+
+
+
+add
+
+Gemfile
+file
+
+
+
+add
+
+Gruntfile.js
+file
+
+
+
+add
+
+js
+dir
+
+
+
+add
+

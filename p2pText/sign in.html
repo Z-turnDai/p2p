@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign in</title>
+    <!--导入各种样式-->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/Font-Awesome-3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <!--导入自己的css样式-->
+    <link rel="stylesheet" href="css/css/core.css">
+
+
+</head>
+<body>
+<!--头-->
+<div class="ts_header">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                    <i class="navNumber">020-22092009</i>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">小强</a></li>
+                    <li><a href="#">赶快充值</a></li>
+                    <li><a href="#">注销</a></li>
+                    <li><a href="#">帮助</a></li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                           title="<img src='images/contract.png'>">联系客服</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!--导航条-->
+<div class="ts_nav">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-left ">
+
+
+                <ul class="nav navbar-nav">
+                    <li><a href="#">用户注册<span class="sr-only">(current)</span></a></li>
+
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+</div>
+<!--身体-->
+<div class="ts_signIn_content container">
+    <!--用户注册-->
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">用户注册</h3>
+        </div>
+        <!--注册体-->
+        <div class="panel-body ">
+            <h4 class="text-muted text-center">请填写注册信息，点击“提交注册”即可完成注册！</h4>
+            <form class="form-horizontal">
+                <!--用户名-->
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-xs-2 control-label">用户名</label>
+                    <div class="col-xs-4">
+                        <input type="email" class="form-control" id="inputEmail3" >
+                        <p class="text-muted">用户名为2~16位字母，数字，符号或中文</p>
+                    </div>
+
+                </div>
+                <!--密码-->
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-xs-2 control-label">密码</label>
+                    <div class="col-xs-5">
+                        <input type="password" class="form-control" id="inputPassword3" >
+                        <p class="text-muted">密码为6~16位字符组成,采用数字、字母、符号安全性更高</p>
+                    </div>
+                </div>
+                <!--确认密码-->
+                <div class="form-group">
+                    <label for="inputPassword4" class="col-xs-2 control-label">确认密码</label>
+                    <div class="col-xs-4">
+                        <input type="password" class="form-control" id="inputPassword4" >
+                        <p class="text-muted">请再次填写密码</p>
+                    </div>
+                </div>
+                <!--同意协议并注册-->
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-success">同意协议并注册</button>
+                        <a href="" class="col-sm-offset-1"> 已有账号，马上登录</a>
+                    </div>
+                    <a href="" class="useBook" >《使用协议说明书》</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--尾-->
+<div class="ts_footer">
+   <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+                <p>版权所有： 2017广州小码哥教育科技有限公司</p>
+                <p>地  址： 广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+                <p>电  话： 020-22092009 邮箱： xiaomagehr@520it.com</p>
+                <p><a href="">ICP备案 ：粤ICP备字15045471</a><a href="">穗公网安备：44010650010086</a></p>
+            </div>
+            <div class="col-md-2">
+                官方微博
+                <a href=""><img src="images/sina.png" alt=""></a>
+                <a href=""><img src="images/tecent.png" alt=""></a>
+            </div>
+            <div class="col-md-2">
+                官方微信
+                <img src="images/wx.jpg" alt="">
+            </div>
+        </div>
+   </div>
+
+</div>
+
+
+<!--导入各种第三方库-->
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

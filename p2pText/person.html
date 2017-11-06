@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person</title>
+    <!--导入各种样式-->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/Font-Awesome-3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <!--导入自己的css样式-->
+    <link rel="stylesheet" href="css/css/core.css">
+
+
+</head>
+<body>
+<!--头-->
+<div class="ts_header">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                    <i class="navNumber">020-22092009</i>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">小强</a></li>
+                    <li><a href="#">赶快充值</a></li>
+                    <li><a href="#">注销</a></li>
+                    <li><a href="#">帮助</a></li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                           title="<img src='images/contract.png'>">联系客服</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!--导航条-->
+<div class="ts_nav">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class=" ">
+
+
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">我要借款</a></li>
+                    <li><a href="#">我要投资</a></li>
+                    <li class="active"><a href="#">个人中心</a></li>
+                    <li><a href="#">新手指引</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+</div>
+<!--身体-->
+<div class="ts_person_content container">
+    <div class="row">
+        <!--左边表格开始-->
+        <div class="col-md-3">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="">投资项目</a></li>
+                <li class="list-group-item"><a href="">借款项目</a>
+                    <ul>
+                        <li ><a href="">借款项目</a></li>
+                        <li ><a href="">还款明细</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item"><a href="">我的账户</a>
+                    <ul>
+                        <li class="person_current"><a href="">账户信息</a></li>
+                        <li><a href="">实名认证</a></li>
+                        <li><a href="">银行卡管理</a></li>
+                        <li><a href="">登录记录</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item"><a href="">资产详情</a>
+                    <ul>
+                        <li><a href="">账户流水</a></li>
+                        <li><a href="">充值明细</a></li>
+                        <li><a href="">提现记录</a></li>
+                        <li><a href="">收款明细</a></li>
+                    </ul>
+
+                </li>
+                <li class="list-group-item"><a href="">个人资料</a></li>
+            </ul>
+        </div>
+        <!--左边表格结束-->
+
+        <!--右边个人信息开始-->
+        <div class="col-md-9">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <!--照片头部-->
+                    <div class="Person_top clearfix">
+                        <div class="pull-left Person_pic" >
+                            <img src="images/head_icon.jpg" class="icon" alt="">
+                        </div>
+                        <div class="Person_text pull-left">
+                            <p>昵 称：小码哥教育</p>
+                            <p>用户名：小强</p>
+                            <p>最后登录时间：2016-10-25 15:30:10</p>
+
+                        </div>
+
+
+                    </div>
+                    <!--其余部分-->
+
+                    <div class="Person_buttom">
+                        <!--总金额-->
+                        <div class="money">
+                            <div class="row">
+                                <div class="col-md-4"><span>总金额：</span><span class="text-primary">10000元</span></div>
+                                <div class="col-md-4"><span>可用金额：</span><span class="text-primary">8000元</span></div>
+                                <div class="col-md-4"><span>冻结金额：</span> <span class="text-primary">2000元</span></div>
+                            </div>
+                        </div>
+                        <!--z账户充值-->
+                        <div class="recharge">
+                            <button type="button" class="btn btn-primary btn-lg">账户充值</button>
+                            <button type="button" class="btn btn-danger btn-lg">账户提现</button>
+                        </div>
+                        <!--各种认证-->
+                        <div class="authentication">
+                            <div class="row">
+                                <div class="col-md-4 clearfix">
+                                    <div class="pic pull-left"><img src="images/shiming.png" alt=""></div>
+                                    <div class="right pull-left clearfix">
+                                        <h5>实名认证</h5>
+                                        <p class="pull-left">未认证</p>
+                                        <a href="" class="pull-right">马上认证</a>
+                                    </div>
+                                    <div class="buttom clearfix">
+                                        <p class="pull-left">实名认证之后才能在平台投资</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-4 clearfix">
+                                    <div class="pic pull-left"><img src="images/shiming.png" alt=""></div>
+                                    <div class="right pull-left clearfix">
+                                        <h5>实名认证</h5>
+                                        <p class="pull-left">未认证</p>
+                                        <a href="" class="pull-right">马上认证</a>
+                                    </div>
+                                    <div class="buttom clearfix">
+                                        <p class="pull-left">实名认证之后才能在平台投资</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clearfix">
+                                    <div class="pic pull-left"><img src="images/shiming.png" alt=""></div>
+                                    <div class="right pull-left clearfix">
+                                        <h5>实名认证</h5>
+                                        <p class="pull-left">未认证</p>
+                                        <a href="" class="pull-right">马上认证</a>
+                                    </div>
+                                    <div class="buttom clearfix">
+                                        <p class="pull-left">实名认证之后才能在平台投资</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 clearfix">
+                                    <div class="pic pull-left"><img src="images/shiming.png" alt=""></div>
+                                    <div class="right pull-left clearfix">
+                                        <h5>实名认证</h5>
+                                        <p class="pull-left">未认证</p>
+                                        <a href="" class="pull-right">马上认证</a>
+                                    </div>
+                                    <div class="buttom clearfix">
+                                        <p class="pull-left">实名认证之后才能在平台投资</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!--尾-->
+<div class="ts_footer">
+   <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+                <p>版权所有： 2017广州小码哥教育科技有限公司</p>
+                <p>地  址： 广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+                <p>电  话： 020-22092009 邮箱： xiaomagehr@520it.com</p>
+                <p><a href="">ICP备案 ：粤ICP备字15045471</a><a href="">穗公网安备：44010650010086</a></p>
+            </div>
+            <div class="col-md-2">
+                官方微博
+                <a href=""><img src="images/sina.png" alt=""></a>
+                <a href=""><img src="images/tecent.png" alt=""></a>
+            </div>
+            <div class="col-md-2">
+                官方微信
+                <img src="images/wx.jpg" alt="">
+            </div>
+        </div>
+   </div>
+
+</div>
+
+
+<!--导入各种第三方库-->
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+</body>
+</html>

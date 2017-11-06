@@ -1,0 +1,90 @@
+@import "base";
+.ts_nav{
+  .navbar{
+    .container{
+        .navbar-left{
+          .nav{
+            li{
+              &:hover{
+                background-color: #f8f8f8;
+                a{
+                  color:@bule;
+                }
+              }
+              a{
+                color:@bule;
+                font-weight: bold;
+                font-size: 25px;
+              }
+            }
+          }
+        }
+    }
+  }
+}
+.ts_recharge_content{
+  .recharge-top{
+    height: 160px;
+    background-color: #F4F8FA;
+    border-left: 2px solid #0099dd;
+    margin-bottom: 20px;
+    padding: 20px;
+      
+  }
+  .recharge-buttom{
+    .recharge-content{
+      .tab-content{
+        .online{
+          border:@line;
+          border-top:0;
+          margin-bottom: 20px;
+          h3{
+            margin-top: 0;
+            padding-top: 10px;
+
+          }
+        }
+        .outline{
+          border:@line;
+          border-top:0;
+          margin-bottom: 20px;
+          //注意事项
+          .attention{
+            margin-left: 20px;
+          }
+          //银行名称
+          .bankName{
+            .table{
+              thead{
+                tr{
+                  th{
+                    font-size: 18px;
+                    font-weight:bold;
+                  }
+                }
+              }
+              tbody{
+                tr{
+                  td{
+                    line-height: 30px;
+                    .bank01{
+                      display: block;
+                      width: 160px;
+                      height: 30px;
+                      background:  url(../../images/bank_list.png) 0 0 no-repeat;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .trade-form{
+            margin-top: 30px;
+          }
+
+        }
+      }
+    }
+
+  }
+}

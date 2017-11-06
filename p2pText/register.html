@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--1.定义视口-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--2.引入框架css-->
+    <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <!--3.引入自定义css-->
+    <link rel="stylesheet" href="style/css/core.css">
+    <link rel="stylesheet" href="style/css/register.css">
+    <link rel="stylesheet" href="lib/bower_components/bootstrapvalidator/dist/css/bootstrapValidator.min.css">
+    <title>Title</title>
+</head>
+<body>
+<!--设置顶部topbar-->
+<div class="el-topbar navbar navbar-default navbar-inverse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                <i>020-8888888</i>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">帮助</a></li>
+                <li><a id="contactUs" href="#" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='images/contract.png' width='100px' height='100px' >">
+                    <i class="fa fa-qq" aria-hidden="true"></i>
+                    联系客服
+                </a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</div>
+<!--设置导航navbar-->
+<div class="el-navbar navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        </div>
+
+        <!-- <!llect the nav links, forms, and other content for toggling -->
+
+        <ul class="nav navbar-nav">
+            <li class="active"><h3>用户注册</h3></li>
+        </ul>
+
+    </div><!-- /.container-->
+</div>
+<!--设置form表单-->
+<div class="el-form container">
+    <div class="panel panel-default">
+        <div class="panel-heading">用户注册</div>
+        <div class="panel-body">
+            <form class="form-horizontal">
+                    <p class="h4">请填写注册信息，点击“提交注册”即可完成注册！</p>
+                    <div class="form-group">
+                        <label for="inputText3" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="username" id="inputText3"  placeholder="username"/>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">密 码</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword" class="col-sm-2 control-label">确认密码</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" name="confirmPassword" id="confirmPassword" placeholder="confirmPassword">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-10">
+                            <button class="btn btn-success">同意协议并注册</button> &emsp;
+                            <a href="">已有帐号,马上登录</a>
+                            <p style="margin-top: 20px;padding-left: 50px"><a href="">&lt;&lt;使用协议说明书&gt;&gt;</a></p>
+                        </div>
+                    </div>
+
+                </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--设置footer-->
+<div class="el-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+                <p>版权所有： 2017广州小码哥教育科技有限公司</p>
+                <p>地  址： 广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+                <p>电  话： 020-22092009 邮箱： xiaomagehr@520it.com</p>
+                <p>
+                    <a href="">ICP备案 ：粤ICP备字15045471</a>&emsp;&emsp;<a href="">穗公网安备：44010650010086</a>
+                </p>
+            </div>
+            <div class="col-sm-2">
+                <p>官方微博:</p>
+                <p><img src="images/tecent.png" alt=""></p>
+                <p><img src="images/sina.png" alt=""></p>
+            </div>
+            <div class="col-sm-2">
+                <p>官方微信:</p>
+                <p><img src="images/contract.png" alt=""></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!--4.引入框架jquery.js-->
+<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<!--5.引入框架bootstrap.js-->
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--引入bootstrapvalidator.js-->
+<script type="text/javascript" src="lib/bower_components/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+
+<script>
+    $('#contactUs').tooltip();
+//    数据验证
+    $('form')
+        .bootstrapValidator({
+        message: 'This value is not valid',
+//          定义未通过验证的状态图标
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+//         字段验证
+        fields: {
+//            用户名
+            username: {
+                message: '用户名验证失败',
+                //验证规则
+                validators: {
+                    notEmpty: {
+                        message: '用户名不能为空'
+                    },
+                    stringLength: {
+                        min: 6,
+                        max: 18,
+                        message: '用户名长度必须在6到18位之间'
+                    },
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_]+$/,
+                        message: '用户名只能包含大写、小写、数字和下划线'
+                    }
+
+                }
+            },
+           //密码
+            password: {
+                message: '密码验证失败',
+                validators: {
+                    notEmpty: {
+                        message: '密码不能为空'
+                    },
+                    stringLength: {
+                        min: 6,
+                        max: 18,
+                        message: '密码长度必须在6到18位之间'
+                    },
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_]+$/,
+                        message: '密码只能包含大写、小写、数字和下划线'
+                    }
+                }
+            },
+            confirmPassword:{
+                message: '密码验证失败',
+                validators:{
+                    notEmpty: {
+                        message: '密码不能为空'
+                    },
+                    stringLength: {
+                        min: 6,
+                        max: 18,
+                        message: '密码长度必须在6到18位之间'
+                    },
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_]+$/,
+                        message: '密码只能包含大写、小写、数字和下划线'
+                    },
+                    identical:{
+                    //       需要验证的field
+                        field:'password',
+                        message:'两次密码输入不一致'
+                    },
+                }
+            }
+        }
+
+    })
+        .on('success.form.fv', function(e) {
+            // Prevent form submission
+            e.preventDefault();
+
+            var $form = $(e.target),
+                fv    = $form.data('formValidation');
+
+            // Use Ajax to submit form data
+            $.ajax({
+                url: $form.attr('action'),
+                type: 'POST',
+                data: $form.serialize(),
+                success: function(result) {
+                    console.log('成功了');
+                }
+            });
+        });
+</script>
+
+</html>

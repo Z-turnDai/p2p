@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <!--导入各种样式-->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/Font-Awesome-3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrapvalidator-master/dist/css/bootstrapValidator.min.css">
+</head>
+<body>
+<form class="form-horizontal">
+    <!--username-->
+    <div class="form-group">
+        <label for="inputUsername3" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputUsername3" placeholder="Email" name="username">
+        </div>
+    </div>
+    <!--email-->
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">email</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputEmail3" placeholder="Password" name="email">
+        </div>
+
+    </div>
+    <!--password-->
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="email">
+        </div>
+
+    </div>
+    <!--confirm password-->
+    <div class="form-group">
+        <label for="inputConfirm password" class="col-sm-2 control-label">confirm password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputConfirm password" placeholder="Password" name="email">
+        </div>
+
+    </div>
+    <!--submit-->
+    <div class="form-group">
+        <button type="button" class="btn col-sm-offset-2 btn-primary">确认提交</button>
+    </div>
+
+
+</form>
+
+<!--导入各种第三方库-->
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/bootstrapvalidator-master/dist/js/bootstrapValidator.min.js"></script>
+
+<script>
+    $(function () {
+        $('form').bootstrapValidator({
+            message: 'This value is not valid',
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                username: {
+                    message: '用户名验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '用户名不能为空'
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: '邮箱地址不能为空'
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

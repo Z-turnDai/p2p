@@ -1,0 +1,184 @@
+@import "person";
+@import "borrow money";
+@import "account statement";
+@import "recharge sheet";
+@import "real name authentication";
+@import "person data";
+@import "i want borrow money";
+@import "recharge";
+@import "Withdraw";
+@import "investment";
+@import "borrow money on credit";
+@import "sign in";
+@import "log in";
+//头
+.ts_header{
+
+  .navbar{
+    border-radius: 0px;
+    margin-bottom: 0;
+    .container{
+      .navbar-header{
+        a{
+          color: white;
+          .navNumber{
+            font-size: 30px;
+          }
+        }
+      }
+      .navbar-collapse{
+        .navbar-nav{
+          a{
+            color: white;
+            &:hover{
+              color: blue;
+              text-decoration: underline;
+            }
+          }
+          .tooltip img{
+            width: 100px;
+          }
+
+        }
+      }
+    }
+  }
+}
+//导航栏
+.ts_nav{
+  .navbar{
+    .container{
+      .navbar-nav{
+        li{
+          min-width: 90px;
+          text-align: center;
+          font-size: 18px;
+          &:hover{
+            a{color: blue;}
+            background-color: #e7e7e7;
+          }
+          a{
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+//内容
+.ts_content{
+//  投资理财开始
+  .row{
+    margin-top: 20px;
+    dt{
+      font-size: 20px;
+    }
+    dd{
+      line-height: 30px;
+    }
+    .touzi1{
+      background: url("../../images/feature01.png") no-repeat 0 10px;
+      dl{
+        margin-left: 60px;
+      }
+    }
+    .touzi2{
+      background: url("../../images/feature02.png") no-repeat 0 10px;
+      dl{
+        margin-left: 60px;
+      }
+    }
+    .touzi3{
+      background: url("../../images/feature03.png") no-repeat 0 10px;
+      dl{
+        margin-left: 60px;
+      }
+    }
+  }
+//  投资结束
+
+
+  //还款开始
+  .ts_huankuan,.ts_nwes{
+    .panel{
+      .panel-heading{
+        border-bottom: 1px solid #e7e7e7;
+        padding: 0;
+        margin-bottom: 20px;
+        .pull-left{
+          font-size: 25px;
+          color: blue;
+          border-bottom: 3px solid blue;
+        }
+      }
+    .table{
+      thead{
+          tr{
+            th{
+              color: #666666;
+              line-height: 30px;
+            }
+          }
+
+      }
+      tbody{
+        font-size: 15px;
+        tr{
+          td{
+            line-height: 30px;
+          }
+        }
+      }
+
+    }
+    }
+  }
+  //还款结束
+
+
+  //新闻开始
+  .ts_nwes{
+    .row{
+      .col-md-6{
+        margin-bottom: 40px;
+        .panel{
+          border-bottom: 0;
+          margin-bottom: 30px;
+        }
+        ul{
+          list-style: none;
+          padding-left: 0;
+            li{
+              line-height: 30px;
+              border-bottom: 1px dashed #e7e7e7;
+                a{
+                color: black;
+                }
+              &:hover a{
+                color: blue;
+              }
+
+            }
+        }
+      }
+    }
+  }
+  //新闻结束
+
+}
+//尾部
+.ts_footer{
+  background-color: #666;
+  .container{
+    padding-top: 20px;
+    .row{
+      .col-md-2{
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}
+

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .el-personal {
+    /*父容器*/
+    /*左侧栏隐藏*/
+    /*按钮*/
+  }
+  .el-personal .offcanvas {
+    position: relative;
+    transition: left 1s ;
+  }
+  .el-personal .offcanvas-left {
+    left: 0;
+  }
+  .el-personal .offcanvas-slidebar {
+    position: absolute;
+    width: 50%;
+    left: -50%;
+  }
+  .el-personal .offcanvas-btn {
+    padding: 30px 10px;
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+  }
+  .el-personal .offcanvas.active {
+    left: 50%;
+  }
+}
+.el-personal .el-person-info ul {
+  list-style: none;
+}
+.el-personal .el-person-info ul .list-group-item {
+  background-color: #F5F5F5;
+  padding: 0px;
+}
+.el-personal .el-person-info ul .list-group-item a {
+  display: block;
+  padding: 10px;
+}
+.el-personal .el-person-info ul .list-group-item .haschild {
+  border-bottom: 1px solid #c0c0c0;
+}
+.el-personal .el-person-info ul .list-group-item ul {
+  background-color: #FFFFFF;
+}
+.el-personal .el-person-info ul .list-group-item ul li {
+  padding-left: 30px;
+}
+.el-personal .nav-tabs {
+  border-bottom: none;
+}
+.el-personal .el-account .el-account-info {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.el-personal .el-account .el-account-info .pull-left div {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 90px;
+}
+.el-personal .el-account .el-account-info .pull-left div img {
+  width: 70px;
+  height: 70px;
+}
+.el-personal .el-account .el-account-info .el-username {
+  margin-left: 20px;
+}
+.el-personal .el-account .el-account-info .el-proving {
+  margin-bottom: 20px;
+}
+.el-personal .el-account .el-account-info .el-proving .pull-left {
+  margin-bottom: 5px;
+}
+.el-personal .el-account .el-account-info .el-proving .pull-left p {
+  font-weight: bold;
+}

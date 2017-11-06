@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>withdraw</title>
+    <!--导入各种样式-->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/Font-Awesome-3.2.1/css/font-awesome.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <!--导入自己的css样式-->
+    <link rel="stylesheet" href="css/css/core.css">
+
+
+</head>
+<body>
+<!--头-->
+<div class="ts_header">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                    <i class="navNumber">020-22092009</i>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">小强</a></li>
+                    <li><a href="#">赶快充值</a></li>
+                    <li><a href="#">注销</a></li>
+                    <li><a href="#">帮助</a></li>
+                    <li>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                           title="<img src='images/contract.png'>">联系客服</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!--导航条-->
+<div class="ts_nav">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-left ">
+
+
+                <ul class="nav navbar-nav">
+                    <li><a href="#">账户提现<span class="sr-only">(current)</span></a></li>
+
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+</div>
+<!--身体-->
+<div class="ts_recharge_content container ts_withDraw_content">
+    <!--提现头-->
+    <div class="recharge-top withdrawTop">
+        <h3 class="text-primary">账户提现</h3>
+        <p>1. 本平台工作日会处理当天 17:00 之前的提款申请。</p>
+        <p>2. 为了确保银行转账成功，请您确认银行账号信息的 正确性。</p>
+        <p>3. 单笔提现范围-普通用户500.00 元 ~ 500000.00 元。</p>
+        <p>4. 单笔提现范围-VIP用户500.00 元 ~ 500000.00 元。</p>
+        <p>5. 目前提现服务费：1万元(含) 之内：2.00 元/笔；1万元（以上） ：5.00 元/笔。</p>
+        <p>6. 为避免信用卡套现，故充值15日内未投资提现按提现金额的0.4%收取提现费用。</p>
+        <p>7. 本次可提现 = 可用余额 - 净值保证金 - 不可提现金额 + 投标冻结 - 最高服务费 - 返还体验金。</p>
+    </div>
+
+    <!--提现体-->
+    <div class="recharge-buttom withdrawContent ">
+        <!--提现金额-->
+        <div class="money container">
+            <div class="row">
+                <div class="col-md-4"><span>总金额：</span><span class="text-primary">10000元</span></div>
+                <div class="col-md-4"><span>可用金额：</span><span class="text-primary">8000元</span></div>
+                <div class="col-md-4"><span>冻结金额：</span> <span class="text-primary">2000元</span></div>
+            </div>
+        </div>
+        <!--提现表-->
+        <div class="trade-form">
+            <form class="form-horizontal">
+                <!--银行-->
+                <div class="form-group">
+                    <label  class="col-xs-2 control-label">银行</label>
+                    <div class="col-xs-3">
+                        <select class="form-control">
+                            <option>工商银行</option>
+                            <option>农业银行</option>
+                            <option>招商银行</option>
+                            <option>中国银行</option>
+                            <option>北京银行</option>
+
+                        </select>
+                    </div>
+                </div>
+                <!--开户行-->
+                <div class="form-group">
+                    <label for="inputTransaction3" class="col-xs-2 control-label">开户行</label>
+                    <div class="col-xs-3">
+                        <input type="email" class="form-control" id="inputTransaction3" >
+                    </div>
+                </div>
+                <!--银行卡号-->
+                <div class="form-group">
+                    <label for="inputCartNumber" class="col-xs-2 control-label">开户行</label>
+                    <div class="col-xs-3">
+                        <input type="text" class="form-control" id="inputCartNumber" >
+                    </div>
+                </div>
+                <!--户主姓名-->
+                <div class="form-group">
+                    <label for="inputUserName" class="col-xs-2 control-label">户主姓名</label>
+                    <div class="col-xs-3">
+                        <input type="email" class="form-control" id="inputUserName" >
+                    </div>
+                </div>
+                <!--提现金额-->
+                <div class="form-group">
+                    <label for="inputMoney" class="col-xs-2 control-label">提现金额</label>
+                    <div class="col-xs-3">
+                        <input type="email" class="form-control" id="inputMoney" >
+                    </div>
+                </div>
+                <!--通知电话-->
+                <div class="form-group">
+                    <label for="inputPhone" class="col-xs-2 control-label">通知电话</label>
+                    <div class="col-xs-3">
+                        <input type="email" class="form-control" id="inputPhone" >
+                    </div>
+                </div>
+
+                <!--提交按钮-->
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <a href="" class="btn btn-primary">确认提交</a>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</div>
+<!--尾-->
+<div class="ts_footer">
+   <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+                <p>版权所有： 2017广州小码哥教育科技有限公司</p>
+                <p>地  址： 广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+                <p>电  话： 020-22092009 邮箱： xiaomagehr@520it.com</p>
+                <p><a href="">ICP备案 ：粤ICP备字15045471</a><a href="">穗公网安备：44010650010086</a></p>
+            </div>
+            <div class="col-md-2">
+                官方微博
+                <a href=""><img src="images/sina.png" alt=""></a>
+                <a href=""><img src="images/tecent.png" alt=""></a>
+            </div>
+            <div class="col-md-2">
+                官方微信
+                <img src="images/wx.jpg" alt="">
+            </div>
+        </div>
+   </div>
+
+</div>
+
+
+<!--导入各种第三方库-->
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

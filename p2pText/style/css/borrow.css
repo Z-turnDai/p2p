@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+.el-borrow .panel-default .panel-heading1,
+.el-borrow .panel-default .panel-heading2,
+.el-borrow .panel-default .panel-heading3 {
+  font-size: 25px;
+}
+.el-borrow .panel-default .panel-heading1 {
+  background-color: green;
+}
+.el-borrow .panel-default .panel-heading2 {
+  background-color: yellowgreen;
+}
+.el-borrow .panel-default .panel-heading3 {
+  background-color: #0b97c4;
+}
+.el-borrow .panel-default .panel-body ul {
+  list-style: none;
+  padding-left: 30px;
+}
+.el-borrow .panel-default .panel-body ul li {
+  background: url("../../images/sequare.png") no-repeat;
+  padding-left: 20px;
+}

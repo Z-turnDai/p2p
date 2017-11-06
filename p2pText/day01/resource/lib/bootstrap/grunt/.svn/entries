@@ -1,0 +1,91 @@
+10
+
+dir
+0
+http://169.254.123.172:81/svn/p2p/Team1/trunk/Code/lib/bootstrap/grunt
+http://169.254.123.172:81/svn/p2p
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+cc2b7638-5017-b24c-a014-9a95945b4079
+
+.jshintrc
+file
+
+
+
+add
+
+bs-lessdoc-parser.js
+file
+
+
+
+add
+
+change-version.js
+file
+
+
+
+add
+
+bs-commonjs-generator.js
+file
+
+
+
+add
+
+sauce_browsers.yml
+file
+
+
+
+add
+
+bs-glyphicons-data-generator.js
+file
+
+
+
+add
+
+npm-shrinkwrap.json
+file
+
+
+
+add
+
+bs-raw-files-generator.js
+file
+
+
+
+add
+
+configBridge.json
+file
+
+
+
+add
+

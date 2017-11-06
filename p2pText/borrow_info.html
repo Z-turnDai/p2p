@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>p2p金融平台</title>
+    <!-- Bootstrap -->
+    <link href="lib/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/core.css">
+    <link rel="stylesheet" href="lib/bower_components/font-awesome/css/font-awesome.css">
+    <style>
+        .zsimg{
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0px auto;
+        }
+        .glyphicon-user:before {
+            content: "\e008";
+        }
+
+
+    </style>
+</head>
+<body>
+<!--//导航顶栏-->
+<div class="el-topbar ">
+    <nav class="navbar navbar-inverse  ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="#">-->
+                <!--<span class=" glyphicon glyphicon-phone-alt" aria-hidden="true"></span>-->
+                <!--<i>0971-888888</i>-->
+                <!--</a>-->
+            </div >
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">快速注册</a></li>
+                    <li><a href="#">小强</a></li>
+                    <li><a href="#">账户充值</a></li>
+                    <li><a href="#">注销</a></li>
+                    <li><a href="#">帮助</a></li>
+                    <!--<li>-->
+                    <!--<a href="#" id="contactUs" class="hidden-xs" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>">-->
+                    <!--<i class="fa fa-qq" aria-hidden="true"></i>-->
+                    <!--联系客服-->
+                    <!--</a>-->
+                    <!--</li>-->
+
+                </ul>
+            </div>
+        </div><!-- /.navbar-collapse -->
+        <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+    </nav>
+</div>
+<!--导航头-->
+<div class="el-navbar">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">我要投资</a></li>
+                    <li><a href="#">我要借款</a></li>
+                    <li style="background-color: #CCCCCC;"><a href="#">个人中心</a></li>
+                    <li><a href="#">新手指引</a></li>
+                    <li><a href="#">关于我们</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!--内容-->
+<div class="el-main container" style="margin-top: 10px">
+    <div class="row">
+        <!--//左边-->
+       <div class="col-sm-3">
+           <div class="panel panel-default">
+               <div class="panel-heading">借款人</div>
+               <div class="panel-body">
+                      <img class="zsimg" src="images/head_icon.jpg" alt="">
+                   <p class="text-center"><a href="">zs</a></p>
+                   <p>籍贯： 广东 - 广州</p>
+                   <p>专职客服 <a href="">:小码哥</a></p>
+                   <div>认证信息：
+                       <label class="label label-success"><span class="glyphicon glyphicon-user"></span></label></div>
+               </div>
+           </div>
+       </div>
+        <!--中间-->
+        <div class="col-sm-6">
+            <h3 class="text-info" style="margin-top: 0px;">
+                zs借款
+                <small><label class="label label-primary">信</label></small>
+            </h3>
+            <div>
+                <table width="100%" height="250px">
+                    <tr>
+                        <td class="muted" width="80px">借款金额</td>
+                        <td class="text-info" style="padding-left: 10px;">
+                            2,000.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="muted ">年化利率</td>
+                        <td class="text-info" style="padding-left: 10px;">
+                            10.00%
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="muted ">借款期限</td>
+                        <td class="text-info" style="padding-left: 10px;">
+                            3月
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="muted">投标奖励</td>
+                        <td class="text-info" style="padding-left: 10px;">
+                            0.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="muted">还款方式</td>
+                        <td class="text-info" style="padding-left: 10px;">
+                            <p class="form-control-static">
+
+                                按月分期还款
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="muted">最小投标</td>
+                        <td class="text-info" style="padding-left: 10px;">
+                            20.00
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="muted">剩余时间</td>
+                        <td class="text-info" style="padding-left: 10px;">
+                            <div id="retroclockbox"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--右边-->
+        <div class="col-sm-3">
+            <table style="height:110px;width:230px;">
+                <tr>
+                    <td  class="muted">投标总数</td><td class="text-info" style="padding-left: 10px;">
+                    2
+                </td>
+                </tr>
+                <tr>
+                    <td  class="muted">还需金额</td><td class="text-info" style="padding-left: 10px;">
+                    0.00元
+                </td>
+                </tr>
+                <tr>
+                    <td  class="muted" colspan="2">投标进度</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div style="margin-bottom: 10px;" class="progress">
+
+
+
+
+                            <div style="width: 100.00%" class="progress-bar progress-bar-info progress-bar-striped"></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+            <h4 class="text-primary">还款中</h4>
+
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            借款人信息
+        </div>
+        <div class="panel-body">
+            <table>
+                <tbody><tr>
+                    <td class="muted text-right">注册时间</td>
+                    <td width="20%" style="padding-left: 10px;" class="text-info">
+                        2015-03-30
+                    </td>
+                    <td class="muted text-right">借款额度</td>
+                    <td width="20%" style="padding-left: 10px;" class="text-info">
+                        2000
+                    </td>
+                    <td class="muted text-right">性别</td>
+                    <td width="20%" style="padding-left: 10px;" class="text-info">
+                        男
+                    </td>
+                    <td class="muted text-right">年龄</td>
+                    <td width="20%" style="padding-left: 10px;" class="text-info">
+                        25
+                    </td>
+                </tr>
+                <tr>
+                    <td class="muted text-right">文化程度</td>
+                    <td width="20%" style="padding-left: 10px;" class="text-info">
+
+
+
+
+
+
+                        硕士研究生
+
+
+                    </td>
+                    <td class="muted text-right">每月收入</td>
+                    <td width="20%" style="padding-left: 10px;" class="text-info">
+
+
+
+
+                        3000-4999
+
+
+
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">审核认证信息</div>
+        <div class="panel-body">
+           <table>
+               <tbody>
+               <tr>
+                   <td class="muted text-right">认证时态度</td>
+                   <td width="10%" style="padding-left: 10px;" class="text-info">
+                       优
+                   </td>
+                   <td class="muted text-right">信贷知识掌握情况</td>
+                   <td width="10%" style="padding-left: 10px;" class="text-info">
+                       优
+                   </td>
+                   <td class="muted text-right">借款感言</td>
+                   <td width="50%" style="padding-left: 10px;" class="text-info">
+                       给我2000度过难关
+                   </td>
+               </tr>
+               <tr>
+                   <td class="muted text-right">审核员认证意见</td>
+                   <td width="150px" style="padding-left: 10px;" colspan="5" class="text-info">
+                       <div style="word-break:break-all;">
+                           啊啊啊啊啊
+                       </div>
+                   </td>
+               </tr>
+               </tbody>
+           </table>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">材料信息</div>
+        <div class="panel-body">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>材料类型</th>
+                    <th>材料数量</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>本人身份证</td>
+                    <td>2</td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">还款情况</div>
+        <div class="panel-body">
+           <table class="table table-striped ">
+               <thead>
+               <tr>
+                   <th>还款状态</th>
+                   <th>最近一周</th>
+                   <th>最近1月</th>
+                   <th>最近6月</th>
+                   <th>6个月前</th>
+                   <th>总计[?]</th>
+               </tr>
+               </thead>
+               <tbody>
+               <tr>
+                   <td>提前还款</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+               </tr>
+               <tr>
+                   <td>准时还款</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+               </tr>
+               <tr>
+                   <td>逾期还款</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+               </tr>
+               <tr>
+                   <td>逾期未还</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+                   <td>0</td>
+               </tr>
+               </tbody>
+           </table>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div style="font-size: 16px;">投标记录</div>
+        </div>
+        <div class="panel-body">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>投标人</th>
+                    <th>年利率 </th>
+                    <th>有效金额(¥)</th>
+                    <th>投标时间</th>
+                    <th>类型</th>
+                </tr>
+                </thead>
+                <tbody>
+
+
+                <tr>
+                    <td>si*****</td>
+                    <td>
+
+                        10%
+                    </td>
+                    <td style="padding-right:60px;" class="text-info">
+                        1,000.00
+                    </td>
+                    <td>
+                        2016-05-11 06:42:11
+                    </td>
+                    <td>手动投标</td>
+                </tr>
+
+                <tr>
+                    <td>xia*****</td>
+                    <td>
+
+                        10%
+                    </td>
+                    <td style="padding-right:60px;" class="text-info">
+                        1,000.00
+                    </td>
+                    <td>
+                        2016-05-12 13:44:01
+                    </td>
+                    <td>手动投标</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+</div>
+<!--页脚-->
+<div class="row el-footer">
+    <div class="container">
+        <div class="col-sm-8">
+            <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+            <p>版权所有：&emsp;2017广州小码哥教育科技有限公司</p>
+            <p>地&emsp;&emsp;址：&emsp;广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+            <p>电&emsp;&emsp;话：&emsp;020-22092009
+                邮箱：&emsp;xiaomagehr@520it.com</p>
+            <p>
+                <a href="http://www.miitbeian.gov.cn">ICP备案 ：粤ICP备字15045471</a>&emsp;&emsp;<a
+                    href="http://www.gaj.chengdu.gov.cn">穗公网安备：44010650010086</a>
+            </p>
+            <div style="display: inline-block; overflow: hidden; float: left;"></div>
+        </div>
+        <div class="col-sm-2">
+            <div>
+                <p style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微博：</p>
+                <a href="http://t.qq.com/it-source" target="_blank"> <img
+                        src="images/tecent.png" alt="Responsive image">
+                </a> <a href="http://weibo.com/cditcast" target="_blank"> <img
+                    src="images/sina.png" alt="Responsive image">
+            </a>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div>
+                <p
+                        style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微信：</p>
+                <img src="images/wx.jpg" alt="Responsive image"
+                     class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="lib/bower_components/jquery.bootstrap.min.js"></script>
+
+</body>
+</html>

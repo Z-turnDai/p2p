@@ -1,0 +1,108 @@
+.ts_person_content{
+  .row{
+    //左边表格开始
+    .col-md-3{
+      .list-group{
+        li{
+          line-height: 40px;
+        }
+        .list-group-item{
+          background-color: #F5F5F5;
+          text-indent:2em;
+          padding: 0;
+          a{
+            text-decoration: none;
+          }
+          ul{
+            background-color: white;
+            list-style: none;
+            padding: 0;
+            .person_current{
+              background-color: #337ab7;
+              a{
+                color: white;
+              }
+            }
+            li{
+              text-indent:4em;
+            }
+          }
+        }
+      }
+    }
+  //  左边表格结束
+
+
+    //右边个人信息开始
+    .col-md-9{
+      .panel{
+        .panel-body{
+          //照片头部
+          .Person_top{
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dddddd;
+            .Person_pic{
+              width: 100px;
+              height: 100px;
+              border: 1px solid #dddddd;
+              padding: 10px;
+              img{
+                width: 80px;
+              }
+            }
+            .Person_text{
+              padding: 10px;
+            }
+          }
+
+        //  其余部分
+          .Person_buttom{
+            //总金额
+            .money{
+              margin-top: 10px;
+              .row{
+                text-align: center;
+                font-size:20px;
+              }
+            }
+          //  账户充值
+            .recharge{
+              margin-top: 20px;
+              text-align: center;
+            }
+          //  各种认证
+            .authentication{
+              margin-top: 20px;
+              padding-bottom: 20px;
+              padding-left: 40px;
+              border-bottom: 1px solid #dddddd;
+              .row{
+                .col-md-4{
+                  margin-bottom: 80px;
+                  .pic{
+                    width: 60px;
+                    height: 60px;
+                    padding-top: 10px;
+                  }
+                  .right{
+                    width: 120px;
+                    h5{
+                      font-weight:bold;
+                    }
+                  }
+                  .buttom{
+                    position: absolute;
+                    left: 18px;
+                    bottom: -40px;
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+    }
+  //  右边个人信息结束
+  }
+}

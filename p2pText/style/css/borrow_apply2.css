@@ -1,0 +1,22 @@
+.top {
+  margin: 0 auto;
+  background-color: #F4F8FA;
+  border-left: 2px solid #00a8ff;
+}
+.top h3 {
+  color: #00a8ff;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.top p {
+  margin-bottom: 30px;
+}
+.top p span {
+  padding-right: 50px;
+}
+.last .form-group .control-label {
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: right;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+.el-invest {
+  height: 300px;
+}
+.el-invest .state {
+  color: #777;
+}
+.el-invest .state .btn-group button {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.el-invest table {
+  margin-top: 20px;
+}

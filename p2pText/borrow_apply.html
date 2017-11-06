@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>p2p金融平台</title>
+    <!-- Bootstrap -->
+    <link href="lib/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/core.css">
+    <link rel="stylesheet" href="lib/bower_components/font-awesome/css/font-awesome.css">
+    <style>
+        li {
+            list-style: none;
+        }
+        .el-topbar .navbar-right li .xiaoqiang {
+            color: #00a8ff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .personal-content .left .group .list-group-item {
+            background-color: #f9f9f9;
+            padding: 0;
+        }
+        .personal-content .left .group .list-group-item a {
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        .personal-content .left .group .list-group-item ul {
+            border-top: 1px solid #dddddd;
+        }
+        .personal-content .left .group .list-group-item ul li {
+            background-color: #fff;
+            line-height: 143%;
+        }
+        .icon{
+            width: 72px;
+            height: 72px;
+        }
+        .el-head-img{
+            border: 1px solid #ddd;
+            padding: 10px;
+            float: left;
+        }
+        body{
+            position: relative;
+            overflow-x:hidden;
+        }
+        .rightBox{
+            position: absolute;
+            left: 70%;
+            top:300px;
+            border: 1px solid #CCCCCC;
+            width: 300px;
+            padding-left: 15px;
+            border-radius: 5px;
+            box-shadow:1px 1px 20px #ddd ;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<!--//导航顶栏-->
+<div class="el-topbar ">
+    <nav class="navbar navbar-inverse  ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class=" glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                    <i>0971-888888</i>
+                </a>
+            </div >
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#" class="xiaoqiang">小强</a></li>
+                    <li><a href="#">赶快充值</a></li>
+                    <li><a href="#">注销</a></li>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+        </div><!-- /.navbar-collapse -->
+        <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+    </nav>
+</div>
+<!--导航头-->
+<div class="el-navbar" style="margin-bottom: 10px">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">我要投资</a></li>
+                    <li><a href="#">我要借款</a></li>
+                    <li style="background-color: #CCCCCC;"><a href="#">个人中心</a></li>
+                    <li><a href="#">新手指引</a></li>
+                    <li><a href="#">关于我们</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!--内容-->
+<div class="personal-content container">
+    <div class="row">
+        <!--左边-->
+        <div class=" col-sm-3 left">
+            <ul class="list-group group">
+                <li class="list-group-item"><a href="">投资项目</a> </li>
+                <li class="list-group-item"><a href="">
+                    借款项目</a>
+                    <ul  >
+                        <li ><a href="">
+                            借款项目
+                        </a></li>
+                        <li ><a href="">
+                            还款明细</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item"><a href="">我的账户</a>
+                    <ul>
+                        <li ><a href="">账户信息</a></li>
+                        <li><a href="">实名认证</a></li>
+                        <li><a href="">银行卡管理</a></li>
+                        <li><a href="">登记记录</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item">
+                    <a href="">资产详情</a>
+                    <ul>
+                        <li><a href="">账户流水</a></li>
+                        <li><a href="">充值明细</a></li>
+                        <li><a href="">提现记录</a></li>
+                        <li><a href="">收款明细</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item"><a href="" style="background-color: #b9def0;">个人资料</a></li>
+            </ul>
+
+        </div>
+        <!--右边-->
+        <div class=" col-sm-9 ">
+            <!--上部分-->
+            <div class="top container el-tip-info">
+                <h3>信用借款</h3>
+                <p>
+                    <a href=""><span class="text-info">授信额度：<span class="text-danger">2000</span></span></a>
+                    <a href=""><span class="text-info">可借金额：<span class="text-danger">2000</span></span></a></p>
+            </div>
+            <!--下部分-->
+            <div class="last container">
+                <div class="page-header lead">
+                    借款信息
+                    <label class="label label-primary">
+                        信用标
+                    </label>
+                </div>
+                <form action="">
+                    <div class="form-group">
+                        <label for="a2" class="col-sm-2 control-label">
+                            借款金额
+                        </label>
+                        <div class="col-sm-3  input-group">
+                            <input class="form-control" id="a2" name="bidRequestAmount" />
+                            <span class="input-group-addon">元</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="a1" class="col-sm-2 control-label">
+                            借款利息
+                        </label>
+                        <div class="col-sm-3  input-group">
+                            <input class="form-control" name="bidRequestAmount" id="a1"/>
+                            <span class="input-group-addon">%</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-2 control-label">
+                            借款限期
+                        </label>
+                        <div class="col-sm-3  input-group">
+                            <!--<input class="form-control" name="bidRequestAmount" value="1" />-->
+                            <select class="form-control" name="monthes2Return"  >
+                                <option value="1">1</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="9">9</option>
+                                <option value="12">12</option>
+                                <option value="11">24</option>
+                            </select>
+                            <span class="input-group-addon">月</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-2 control-label">
+                            还款方式
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 按月分期
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 按月到期
+                        </label>
+
+
+                    </div>
+                    <div class="form-group">
+                        <label for="a4" class="col-sm-2 control-label" for="a4">
+                            最小投标
+                        </label>
+                        <div class="col-sm-3  input-group">
+                            <input class="form-control" name="bidRequestAmount" id="a4"/>
+                            <span class="input-group-addon">元</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-2 control-label">
+                            投标奖金
+                        </label>
+                        <div class="col-sm-3  input-group">
+                            <input class="form-control" name="bidRequestAmount"  value="0"/>
+                            <span class="input-group-addon">%</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-2 control-label">
+                            借款期限
+                        </label>
+                        <div class="col-sm-3  input-group">
+                            <!--<input class="form-control" name="bidRequestAmount" value="1" />-->
+                            <select class="form-control" name="monthes2Return"  id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+
+                            </select>
+                            <span class="input-group-addon">天</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="a5" class="col-sm-2 control-label">借款标题</label>
+                        <div  class="col-sm-6 input-group"><input type="text" id="a5" name="title" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="a" class="col-sm-2 control-label">借款描述</label>
+                        <div  for= "a" class="col-sm-6 input-group">
+                            <textarea name="" id="a"  rows="4" class="form-control" style="resize: none;"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary col-lg-offset-3" type="submit" data-loading-text="提交">
+                            提交申请
+                        </button>
+                    </div>
+                    <div class="rightBox " >
+                        <h4>相关费用</h4>
+                        <p class="text-info">利息 --</p>
+                        <p class="text-info">奖金 --</p>
+                        <p class="text-info">管理费 --</p>
+                    </div>
+
+                </form>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+</div>
+
+<!--页脚-->
+<div class="row el-footer">
+    <div class="container">
+        <div class="col-sm-8">
+            <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+            <p>版权所有：&emsp;2017广州小码哥教育科技有限公司</p>
+            <p>地&emsp;&emsp;址：&emsp;广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+            <p>电&emsp;&emsp;话：&emsp;020-22092009
+                邮箱：&emsp;xiaomagehr@520it.com</p>
+            <p>
+                <a href="http://www.miitbeian.gov.cn">ICP备案 ：粤ICP备字15045471</a>&emsp;&emsp;<a
+                    href="http://www.gaj.chengdu.gov.cn">穗公网安备：44010650010086</a>
+            </p>
+            <div style="display: inline-block; overflow: hidden; float: left;"></div>
+        </div>
+        <div class="col-sm-2">
+            <div>
+                <p style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微博：</p>
+                <a href="http://t.qq.com/it-source" target="_blank"> <img
+                        src="images/tecent.png" alt="Responsive image">
+                </a> <a href="http://weibo.com/cditcast" target="_blank"> <img
+                    src="images/sina.png" alt="Responsive image">
+            </a>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div>
+                <p
+                        style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微信：</p>
+                <img src="images/wx.jpg" alt="Responsive image"
+                     class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="lib/bower_components/jquery.bootstrap.min.js"></script>
+
+</body>
+</html>

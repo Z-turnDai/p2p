@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button class="btn">点我</button>
+<script>
+   function $(obj) {
+       return document.querySelector(obj)
+   }
+   var x=1;
+   $('.btn').onclick= function () {
+           if(x==1){
+               console.log(100);
+               x=2;
+           }
+           else if(x==2){
+               console.log(200);
+               x=1;
+           }
+       }
+
+
+</script>
+</body>
+</html>

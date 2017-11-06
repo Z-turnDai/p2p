@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box{
+            width: 300px;
+            border: 1px solid #000;
+            border-radius: 4px;
+            margin: 100px auto;
+        }
+        .fir{
+            text-indent: 2em;
+        }
+        .fir>li{
+            line-height: 30px;
+        }
+        .fir>li:hover{
+            background-color: #ddd;
+        }
+        .sec{
+            text-indent: 4em;
+            display: none;
+        }
+        .sec>li{
+            background-color: black;
+            color: white;
+            margin-top: 2px;
+        }
+        .sec>li:hover{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <ul class="fir">
+    <li>第一级菜单1
+        <ul class="sec">
+            <li>第二级菜单1</li>
+            <li>第二级菜单2</li>
+            <li>第二级菜单3</li>
+            <li>第二级菜单4</li>
+            <li>第二级菜单5</li>
+            <li>第二级菜单6</li>
+        </ul>
+    </li>
+    <li>第一级菜单2
+        <ul class="sec">
+            <li>第二级菜单1</li>
+            <li>第二级菜单2</li>
+            <li>第二级菜单3</li>
+            <li>第二级菜单4</li>
+            <li>第二级菜单5</li>
+            <li>第二级菜单6</li>
+        </ul>
+    </li>
+    <li>第一级菜单3
+        <ul class="sec">
+            <li>第二级菜单1</li>
+            <li>第二级菜单2</li>
+            <li>第二级菜单3</li>
+            <li>第二级菜单4</li>
+            <li>第二级菜单5</li>
+            <li>第二级菜单6</li>
+        </ul>
+    </li>
+    <li>第一级菜单4
+        <ul class="sec">
+            <li>第二级菜单1</li>
+            <li>第二级菜单2</li>
+            <li>第二级菜单3</li>
+            <li>第二级菜单4</li>
+            <li>第二级菜单5</li>
+            <li>第二级菜单6</li>
+        </ul>
+    </li>
+    <li>第一级菜单5
+        <ul class="sec">
+            <li>第二级菜单1</li>
+            <li>第二级菜单2</li>
+            <li>第二级菜单3</li>
+            <li>第二级菜单4</li>
+            <li>第二级菜单5</li>
+            <li>第二级菜单6</li>
+        </ul>
+    </li>
+    <li>第一级菜单6
+        <ul class="sec">
+            <li>第二级菜单1</li>
+            <li>第二级菜单2</li>
+            <li>第二级菜单3</li>
+            <li>第二级菜单4</li>
+            <li>第二级菜单5</li>
+            <li>第二级菜单6</li>
+        </ul>
+    </li>
+</ul>
+</div>
+
+
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(function () {
+        $('.fir>li').click(function () {
+            $(this).children('.sec').slideToggle();
+            $(this).siblings().children('.sec').slideUp();
+
+
+        })
+    })
+</script>
+</body>
+</html>

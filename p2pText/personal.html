@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--1.定义视口-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--2.引入框架css-->
+    <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <!--3.引入自定义css-->
+    <link rel="stylesheet" href="style/css/core.css">
+    <link rel="stylesheet" href="style/css/personal.css">
+    <title>Title</title>
+</head>
+<body>
+<!--设置顶部topbar-->
+<div class="el-topbar navbar navbar-default navbar-inverse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                <i>020-8888888</i>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">小强</a></li>
+                <li><a href="#">账户充值</a></li>
+                <li><a href="#">注销</a></li>
+                <li><a id="contactUs" href="#" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='images/contract.png' width='100px' height='100px' >">
+                    <i class="fa fa-qq" aria-hidden="true"></i>
+                    帮助
+                </a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</div>
+<!--设置导航navbar-->
+<div class="el-navbar navbar navbar-default hidden-xs">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+            <li><a href="invest.html">我要投资</a></li>
+            <li><a href="#">我要借款</a></li>
+            <li class="active"><a href="#">个人中心</a></li>
+            <li><a href="#">新手指引</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+
+    </div><!-- /.container-->
+</div>
+<!--设置主体-->
+<div class="el-personal container">
+    <div class="row offcanvas offcanvas-left">
+        <div class="col-sm-3 el-person-info offcanvas-slidebar">
+            <ul class="list-group">
+                <li class="list-group-item group-color"><a href="">投资项目</a></li>
+                <li class="list-group-item group-color"><a href="" class="haschild">借款项目</a>
+                    <ul>
+                        <li><a href="">借款项目</a></li>
+                        <li><a href="">还款明细</a></li>
+                    </ul>
+
+                </li>
+                <li class="list-group-item group-color"><a href="" class="haschild">我的账户</a>
+                    <ul>
+                        <li style="background-color: #00b3ee"><a href="">账户信息</a></li>
+                        <li><a href="">实名认证</a></li>
+                        <li><a href="">银行卡记录</a></li>
+                        <li><a href="">登录记录</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item group-color"><a href="" class="haschild">资产详情</a>
+                    <ul>
+                        <li><a href="">账户流水</a></li>
+                        <li><a href="">充值明细</a></li>
+                        <li><a href="">提现记录</a></li>
+                        <li><a href="">收款明细</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item group-color"><a href="">个人资料</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9 offcanvas-right">
+            <button class="btn btn-primary visible-xs offcanvas-btn">
+                <i class="fa fa-angle-double-right"></i>
+            </button>
+            <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">
+                        <div class="panel panel-default">
+                            <div class="panel-body el-account">
+                                <div class="el-account-info">
+                                    <div class="pull-left">
+                                        <div><img src="images/head_icon.jpg" alt=""></div>
+                                    </div>
+                                    <div class="pull-left el-username">
+                                        <p>昵 称：小码哥教育</p>
+                                        <p>用户名：小强</p>
+                                        <p>最后登录时间：2016-10-25 15:30:10</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div style="margin: 10px 2px;" class="row h4">
+                                    <div class="col-sm-4">
+                                        总金额：<span class="text-primary">10000元</span>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        可用金额：<span class="text-primary">8000元</span>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        冻结金额：<span class="text-primary">2000元</span>
+                                    </div>
+                                </div>
+                                <div style="text-align: center;width: 400px;margin:30px auto 0px auto;">
+                                    <a class="btn btn-primary btn-lg" href="recharge.html">账户充值</a>
+                                    <a class="btn btn-danger btn-lg" href="moneyWithdraw_apply.html">账户提现</a>
+                                </div>
+                                <div class="el-account-info" style="margin-top: 50px">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="el-proving">
+                                                <div class="pull-left">
+                                                    <img src="images/shiming.png" alt="">
+                                                </div>
+                                                <div class="pull-left">
+                                                    <p>实名认证</p>
+                                                    <span>未认证</span>
+                                                    <a href="">马上认证</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <p>实名认证之后才能在平台投资</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="el-proving">
+                                                <div class="pull-left">
+                                                    <img src="images/shouji.jpg" alt="">
+                                                </div>
+                                                <div class="pull-left">
+                                                    <p>实名认证</p>
+                                                    <span>未认证</span>
+                                                    <a href="">马上认证</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <p>实名认证之后才能在平台投资</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="el-proving">
+                                                <div class="pull-left">
+                                                    <img src="images/youxiang.jpg" alt="">
+                                                </div>
+                                                <div class="pull-left">
+                                                    <p>实名认证</p>
+                                                    <span>未认证</span>
+                                                    <a href="">马上认证</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <p>实名认证之后才能在平台投资</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="el-proving">
+                                                <div class="pull-left">
+                                                    <img src="images/baozhan.jpg" alt="">
+                                                </div>
+                                                <div class="pull-left">
+                                                    <p>实名认证</p>
+                                                    <span>未认证</span>
+                                                    <a href="">马上认证</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <p>实名认证之后才能在平台投资</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+
+                </div>
+        </div>
+    </div>
+</div>
+<!--设置footer-->
+<div class="el-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+                <p>版权所有： 2017广州小码哥教育科技有限公司</p>
+                <p>地  址： 广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+                <p>电  话： 020-22092009 邮箱： xiaomagehr@520it.com</p>
+                <p>
+                    <a href="">ICP备案 ：粤ICP备字15045471</a>&emsp;&emsp;<a href="">穗公网安备：44010650010086</a>
+                </p>
+            </div>
+            <div class="col-sm-2">
+                <p>官方微博:</p>
+                <p><img src="images/tecent.png" alt=""></p>
+                <p><img src="images/sina.png" alt=""></p>
+            </div>
+            <div class="col-sm-2">
+                <p>官方微信:</p>
+                <p><img src="images/contract.png" alt=""></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!--4.引入框架jquery.js-->
+<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<!--5.引入框架bootstrap.js-->
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $('#contactUs').tooltip()
+</script>
+<script type="text/javascript">
+    (function () {
+        var flag =false;
+        $(".offcanvas-btn").on("click",function () {
+            $btn = $(this);
+            /*获取父容器*/
+            $parent = $btn.closest(".offcanvas-left");
+            console.log($parent);
+            if(!flag){
+                $parent.addClass("active");
+                /*改变箭头方向*/
+                $btn.html('<i class="fa fa-angle-double-left"></i>');
+                flag = true;
+            }else{
+                $parent.removeClass("active");
+                $btn.html('<i class="fa fa-angle-double-right"></i>');
+                flag = false;
+            }
+
+        })
+    })();
+    /*封装自定义触摸事件*/
+    (function () {
+        //获取dom
+        $document = $(document);
+
+        var startX ,endX;
+        //声明最小移动距离
+        var minMove = 30;
+
+        //绑定触摸事件
+        $document.on('touchstart',function (e) {
+//            console.log(e);
+            startX = e.originalEvent.changedTouches[0].pageX;
+        });
+        $document.on('touchend',function (e) {
+//            console.log(e);
+            endX = e.originalEvent.changedTouches[0].pageX;
+            if(endX-startX>=30){
+                //自定义事件,触发谁把leftToRight这个事件给谁
+                $(this).trigger('leftToRight');
+            }
+        })
+    })()
+    $(document).on('leftToRight',function () {
+        $('.offcanvas-btn').trigger('click');
+    })
+
+</script>
+</html>

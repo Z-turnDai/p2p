@@ -1,0 +1,436 @@
+.ts_person_content .row .col-md-3 .list-group li {
+  line-height: 40px;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item {
+  background-color: #F5F5F5;
+  text-indent: 2em;
+  padding: 0;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item a {
+  text-decoration: none;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item ul {
+  background-color: white;
+  list-style: none;
+  padding: 0;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item ul .person_current {
+  background-color: #337ab7;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item ul .person_current a {
+  color: white;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item ul li {
+  text-indent: 4em;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_top .Person_pic {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_top .Person_pic img {
+  width: 80px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_top .Person_text {
+  padding: 10px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .money {
+  margin-top: 10px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .money .row {
+  text-align: center;
+  font-size: 20px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .recharge {
+  margin-top: 20px;
+  text-align: center;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .authentication {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  border-bottom: 1px solid #dddddd;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .authentication .row .col-md-4 {
+  margin-bottom: 80px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .authentication .row .col-md-4 .pic {
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .authentication .row .col-md-4 .right {
+  width: 120px;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .authentication .row .col-md-4 .right h5 {
+  font-weight: bold;
+}
+.ts_person_content .row .col-md-9 .panel .panel-body .Person_buttom .authentication .row .col-md-4 .buttom {
+  position: absolute;
+  left: 18px;
+  bottom: -40px;
+}
+.mixin-current {
+  background-color: #337ab7;
+}
+.mixin-current > a {
+  color: white;
+}
+.ts_person_content .row .col-md-3 .list-group .borrow_money_current {
+  background-color: #337ab7;
+}
+.ts_person_content .row .col-md-3 .list-group .borrow_money_current > a {
+  color: white;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current {
+  background-color: #337ab7;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current > a {
+  color: white;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current {
+  background-color: #337ab7;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current > a {
+  color: white;
+}
+.ts_person_content .row .col-md-9 .panel .panel-heading span {
+  margin-top: 3px;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current {
+  background-color: #337ab7;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current > a {
+  color: white;
+}
+.ts_person_content .row .col-md-9 .panel .form-head {
+  text-align: center;
+}
+.ts_person_content .row .col-md-9 .panel .form-horizontal {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .col-xs-10 .userName {
+  position: absolute;
+  left: 14px;
+  top: 6px;
+}
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .col-xs-6 {
+  width: 360px;
+  height: 200px;
+}
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .col-xs-6 .left,
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .col-xs-6 .right {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px solid #dddddd;
+}
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .col-xs-6 .left div,
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .col-xs-6 .right div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .check {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ts_person_content .row .col-md-9 .panel .form-horizontal .form-group .check .tooltip img {
+  width: 100%;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current {
+  background-color: #337ab7;
+}
+.ts_person_content .row .col-md-3 .list-group .list-group-item .borrow_money_current > a {
+  color: white;
+}
+.ts_person_content .row .col-md-9 .panel .person-data {
+  margin-top: 0;
+}
+.ts_loan_content .row .loan .panel .panel-body {
+  padding: 10px;
+  background-color: #40d47e;
+}
+.ts_loan_content .row .loan .panel .panel-body p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0;
+}
+.ts_loan_content .row .loan .panel .panel-footer .renzheng {
+  position: relative;
+  margin-left: 20px;
+}
+.ts_loan_content .row .loan .panel .panel-footer .renzheng span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  margin-bottom: 15px;
+}
+.ts_loan_content .row .loan .panel .panel-footer .renzheng p {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  margin-top: 5px;
+}
+.ts_loan_content .row .loan .panel .panel-footer .renzheng p:nth-of-type(1) {
+  top: -10px;
+}
+.ts_loan_content .row .loan .panel .panel-footer .renzheng p:nth-of-type(2) {
+  top: 15px;
+}
+.ts_loan_content .row .loan .panel .panel-footer .renzheng p:nth-of-type(3) {
+  top: 40px;
+}
+.ts_loan_content .row .loan .panel .panel-footer .lijishenqing {
+  text-align: center;
+}
+.ts_loan_content .row .loan .panel .panel-footer .lijishenqing a {
+  border-radius: 15px;
+}
+.ts_nav .navbar .container .navbar-left .nav li:hover {
+  background-color: #f8f8f8;
+}
+.ts_nav .navbar .container .navbar-left .nav li:hover a {
+  color: #337ab7;
+}
+.ts_nav .navbar .container .navbar-left .nav li a {
+  color: #337ab7;
+  font-weight: bold;
+  font-size: 25px;
+}
+.ts_recharge_content .recharge-top {
+  height: 160px;
+  background-color: #F4F8FA;
+  border-left: 2px solid #0099dd;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .online {
+  border: 1px solid #dddddd;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .online h3 {
+  margin-top: 0;
+  padding-top: 10px;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .outline {
+  border: 1px solid #dddddd;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .outline .attention {
+  margin-left: 20px;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .outline .bankName .table thead tr th {
+  font-size: 18px;
+  font-weight: bold;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .outline .bankName .table tbody tr td {
+  line-height: 30px;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .outline .bankName .table tbody tr td .bank01 {
+  display: block;
+  width: 160px;
+  height: 30px;
+  background: url(../../images/bank_list.png) 0 0 no-repeat;
+}
+.ts_recharge_content .recharge-buttom .recharge-content .tab-content .outline .trade-form {
+  margin-top: 30px;
+}
+.ts_withDraw_content .withdrawTop {
+  height: 300px;
+}
+.ts_withDraw_content .withdrawContent .money {
+  margin-bottom: 20px;
+}
+.ts_withDraw_content .withdrawContent .money .row .col-md-4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.ts_investment .investment-state {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ts_investment .investment-state .btn-group {
+  margin-left: 20px;
+}
+.ts_investment .investment-state .btn-group .btn {
+  width: 100px;
+}
+.ts_investment .investment-lis {
+  margin-bottom: 50px;
+}
+.ts_investment .investment-lis .table {
+  font-size: 16px;
+}
+.ts_borrow_money .recharge-top h3 {
+  margin-bottom: 20px;
+}
+.ts_borrow_money .recharge-top span:nth-of-type(2) {
+  margin-left: 20px;
+}
+.ts_borrow_money .recharge-buttom .borrow_money_message {
+  font-size: 20px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.ts_borrow_money .recharge-buttom .borrow_money_form {
+  margin-left: 100px;
+  position: relative;
+}
+.ts_borrow_money .recharge-buttom .aboutMoney {
+  width: 300px;
+  height: 170px;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  box-shadow: 1px 1px 20px #ddd;
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+.ts_signIn_content .panel .panel-body .form-horizontal {
+  margin-top: 20px;
+  margin-left: 250px;
+}
+.ts_signIn_content .panel .panel-body .form-horizontal .form-group {
+  margin-bottom: 20px;
+}
+.ts_signIn_content .panel .panel-body .form-horizontal .form-group input {
+  width: 200px;
+}
+.ts_signIn_content .panel .panel-body .form-horizontal .form-group .useBook {
+  margin-left: 200px;
+  line-height: 40px;
+}
+.ts_signIn_content .panel .panel-body .form-horizontal .form-group .col-sm-offset-2 .login {
+  width: 100px;
+}
+.ts_header .navbar {
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+.ts_header .navbar .container .navbar-header a {
+  color: white;
+}
+.ts_header .navbar .container .navbar-header a .navNumber {
+  font-size: 30px;
+}
+.ts_header .navbar .container .navbar-collapse .navbar-nav a {
+  color: white;
+}
+.ts_header .navbar .container .navbar-collapse .navbar-nav a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.ts_header .navbar .container .navbar-collapse .navbar-nav .tooltip img {
+  width: 100px;
+}
+.ts_nav .navbar .container .navbar-nav li {
+  min-width: 90px;
+  text-align: center;
+  font-size: 18px;
+}
+.ts_nav .navbar .container .navbar-nav li:hover {
+  background-color: #e7e7e7;
+}
+.ts_nav .navbar .container .navbar-nav li:hover a {
+  color: blue;
+}
+.ts_nav .navbar .container .navbar-nav li a {
+  line-height: 40px;
+}
+.ts_content .row {
+  margin-top: 20px;
+}
+.ts_content .row dt {
+  font-size: 20px;
+}
+.ts_content .row dd {
+  line-height: 30px;
+}
+.ts_content .row .touzi1 {
+  background: url("../../images/feature01.png") no-repeat 0 10px;
+}
+.ts_content .row .touzi1 dl {
+  margin-left: 60px;
+}
+.ts_content .row .touzi2 {
+  background: url("../../images/feature02.png") no-repeat 0 10px;
+}
+.ts_content .row .touzi2 dl {
+  margin-left: 60px;
+}
+.ts_content .row .touzi3 {
+  background: url("../../images/feature03.png") no-repeat 0 10px;
+}
+.ts_content .row .touzi3 dl {
+  margin-left: 60px;
+}
+.ts_content .ts_huankuan .panel .panel-heading,
+.ts_content .ts_nwes .panel .panel-heading {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.ts_content .ts_huankuan .panel .panel-heading .pull-left,
+.ts_content .ts_nwes .panel .panel-heading .pull-left {
+  font-size: 25px;
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+.ts_content .ts_huankuan .panel .table thead tr th,
+.ts_content .ts_nwes .panel .table thead tr th {
+  color: #666666;
+  line-height: 30px;
+}
+.ts_content .ts_huankuan .panel .table tbody,
+.ts_content .ts_nwes .panel .table tbody {
+  font-size: 15px;
+}
+.ts_content .ts_huankuan .panel .table tbody tr td,
+.ts_content .ts_nwes .panel .table tbody tr td {
+  line-height: 30px;
+}
+.ts_content .ts_nwes .row .col-md-6 {
+  margin-bottom: 40px;
+}
+.ts_content .ts_nwes .row .col-md-6 .panel {
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+.ts_content .ts_nwes .row .col-md-6 ul {
+  list-style: none;
+  padding-left: 0;
+}
+.ts_content .ts_nwes .row .col-md-6 ul li {
+  line-height: 30px;
+  border-bottom: 1px dashed #e7e7e7;
+}
+.ts_content .ts_nwes .row .col-md-6 ul li a {
+  color: black;
+}
+.ts_content .ts_nwes .row .col-md-6 ul li:hover a {
+  color: blue;
+}
+.ts_footer {
+  background-color: #666;
+}
+.ts_footer .container {
+  padding-top: 20px;
+}
+.ts_footer .container .row .col-md-2 img {
+  width: 100%;
+}

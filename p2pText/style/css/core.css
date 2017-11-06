@@ -1,0 +1,109 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+/*设置顶部topbar*/
+.el-topbar {
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+.el-topbar .navbar-header a {
+  color: #FFFFFF;
+}
+.el-topbar .navbar-header a i {
+  font-size: 28px;
+}
+.el-topbar .navbar-right li a {
+  color: #FFFFFF;
+}
+.el-topbar .navbar-right li a:hover {
+  color: #00a8ff;
+  text-decoration: underline;
+}
+/*设置导航navbar*/
+.el-navbar {
+  margin-bottom: 4px;
+}
+.el-navbar .navbar-nav li {
+  text-align: center;
+}
+.el-navbar .navbar-nav li a:active {
+  background: #e6e6e6;
+}
+.el-navbar .navbar-nav li a {
+  line-height: 43px;
+  font-size: 18px;
+}
+/*设置main*/
+.el-main {
+  /*设置三大特色*/
+}
+.el-main .el-feature .row dl {
+  padding-left: 80px;
+  margin-top: 20px;
+}
+.el-main .el-feature .row dl dt {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: bold;
+}
+.el-main .el-feature .row dl dd {
+  padding-top: 5px;
+  color: #9a9a9a;
+}
+.el-main .el-feature .row .left-bc {
+  background: url('../../images/feature01.png') no-repeat;
+}
+.el-main .el-feature .row .center-bc {
+  background: url('../../images/feature02.png') no-repeat;
+}
+.el-main .el-feature .row .right-bc {
+  background: url('../../images/feature03.png') no-repeat;
+}
+.el-main .el-borrow-list .panel-heading,
+.el-main .el-news .panel-heading {
+  padding-bottom: 0;
+  padding-left: 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.el-main .el-borrow-list .panel-heading .pull-left,
+.el-main .el-news .panel-heading .pull-left {
+  padding-top: 13px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #00a8ff;
+  border-bottom: 3px solid;
+}
+.el-main .el-borrow-list .panel-heading .pull-right,
+.el-main .el-news .panel-heading .pull-right {
+  padding-top: 25px;
+  font-size: 15px;
+}
+.el-main .el-borrow-list ul,
+.el-main .el-news ul {
+  padding-left: 0;
+}
+.el-main .el-borrow-list ul li,
+.el-main .el-news ul li {
+  line-height: 30px;
+  list-style: none;
+  font-size: 15px;
+}
+.el-main .el-borrow-list ul li a,
+.el-main .el-news ul li a {
+  color: gray;
+}
+/*设置el-footer*/
+.el-footer {
+  background-color: #f8f8f8;
+}
+.el-footer .container {
+  padding-top: 30px;
+}
+.el-footer .container .row div:nth-of-type(2) img {
+  width: 100%;
+}
+.el-footer .container .row div:nth-of-type(3) img {
+  width: 100%;
+}

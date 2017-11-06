@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--1.定义视口-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--2.引入框架css-->
+    <link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <!--3.引入自定义css-->
+    <link rel="stylesheet" href="style/css/core.css">
+    <link rel="stylesheet" href="style/css/recharge.css">
+    <title>Title</title>
+</head>
+<body>
+<!--设置顶部topbar-->
+<div class="el-topbar navbar navbar-default navbar-inverse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                <i>020-8888888</i>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">帮助</a></li>
+                <li><a id="contactUs" href="#" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='images/contract.png' width='100px' height='100px' >">
+                    <i class="fa fa-qq" aria-hidden="true"></i>
+                    联系客服
+                </a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</div>
+<!--设置导航navbar-->
+<div class="el-navbar navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+            <li><a href="invest.html">我要投资</a></li>
+            <li><a href="#">我要借款</a></li>
+            <li><a href="personal.html">个人中心</a></li>
+            <li><a href="#">新手指引</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+
+    </div><!-- /.container-->
+</div>
+<!--设置main-->
+
+<div class="container el-recharge">
+    <div class="el-recharge1">
+        <h3>账户充值</h3>
+        <p>1. 由于银行系统的限制，充值功能建议使用 IE 内核（IE8及以上）的浏览器。</p>
+        <p>2. 请注意：为打击信用卡套现行为，充值资金必须经过投资回款后方能允许提现。</p>
+    </div>
+    <div class="el-recharge2">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="pan1">
+                <div class="panel panel-default">
+                    <p class="h3 text-danger text-center" style="margin-top:0px;padding-top:10px;">系统暂不支持，请采用线下充值</p>
+                </div>
+            </div>
+            <div class="tab-pane fade in" id="pan2">
+                <div class="panel panel-default">
+                    <table class="table el-recharge-table">
+                        <thead>
+                        <tr>
+                            <th>银行名称</th>
+                            <th>开户人姓名</th>
+                            <th>银行帐号</th>
+                            <th>开户行支行名称</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td>
+                                <span class="el-bank el-bank01"></span>
+                            </td>
+                            <td>小码哥</td>
+                            <td>62170038233428412750</td>
+                            <td>广州天河支行</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <span class="el-bank el-bank02"></span>
+                            </td>
+                            <td>小码哥</td>
+                            <td>6217003834411112750</td>
+                            <td>广州海珠区支行</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <span class="el-bank el-bank03"></span>
+                            </td>
+                            <td>小码哥</td>
+                            <td>6212303810028412750</td>
+                            <td>广州越秀区支行</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<br/>
+<!--设置footer-->
+<div class="el-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+                <p>版权所有： 2017广州小码哥教育科技有限公司</p>
+                <p>地  址： 广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+                <p>电  话： 020-22092009 邮箱： xiaomagehr@520it.com</p>
+                <p>
+                    <a href="">ICP备案 ：粤ICP备字15045471</a>&emsp;&emsp;<a href="">穗公网安备：44010650010086</a>
+                </p>
+            </div>
+            <div class="col-sm-2">
+                <p>官方微博:</p>
+                <p><img src="images/tecent.png" alt=""></p>
+                <p><img src="images/sina.png" alt=""></p>
+            </div>
+            <div class="col-sm-2">
+                <p>官方微信:</p>
+                <p><img src="images/contract.png" alt=""></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!--4.引入框架jquery.js-->
+<script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<!--5.引入框架bootstrap.js-->
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $('#contactUs').tooltip()
+</script>
+
+</html>

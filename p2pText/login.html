@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>p2p金融平台</title>
+    <!-- Bootstrap -->
+    <link href="lib/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/core.css">
+    <link rel="stylesheet" href="lib/bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="lib/bootstrapvalidator/dist/css/bootstrapValidator.min.css">
+    <!--<style>-->
+        <!--form{-->
+            <!--width: 600px;-->
+            <!--margin-left: auto;-->
+            <!--margin-right: auto;-->
+        <!--}-->
+
+    <!--</style>-->
+</head>
+<body>
+<!--//导航顶栏-->
+<div class="el-topbar "  >
+    <nav class="navbar navbar-inverse  ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="#">-->
+                <!--<span class=" glyphicon glyphicon-phone-alt" aria-hidden="true"></span>-->
+                <!--<i>020-8888888</i>-->
+                <!--</a>-->
+            </div >
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">快速注册</a></li>
+                    <li><a href="#">小强</a></li>
+                    <li><a href="#">账户充值</a></li>
+                    <li><a href="#">注销</a></li>
+                    <li><a href="#">帮助</a></li>
+                    <!--<li>-->
+                    <!--<a href="#" id="contactUs" class="hidden-xs" data-html="true" data-toggle="tooltip" data-placement="bottom" title="<img src='images/contract.png'/>">-->
+                    <!--<i class="fa fa-qq" aria-hidden="true"></i>-->
+                    <!--联系客服-->
+                    <!--</a>-->
+                    <!--</li>-->
+
+                </ul>
+            </div>
+        </div><!-- /.navbar-collapse -->
+        <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+    </nav>
+</div>
+<!--导航头-->
+<div class="el-navbar">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" style="color:blue ; font-weight: bold ; font-size: 20px"  >用户注册</a></li>
+                    <!--<li><a href="#">我要投资</a></li>-->
+                    <!--<li><a href="#">我要借款</a></li>-->
+                    <!--<li><a href="#">个人中心</a></li>-->
+                    <!--<li><a href="#">新手指引</a></li>-->
+                    <!--<li><a href="#">关于我们</a></li>-->
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!--内容-->
+<div class="el-main container" >
+    <div class="panel panel-default">
+        <div class="panel-heading">用户登录</div>
+        <div class="panel-body">
+            <form id="registerForm" class="form-horizontal el-register-form" action=" "  method="post" >
+                <p class="h4" style="margin: 10px 120px 20px;color:#999;">请输入用户名和密码</p>
+                <div class="form-group">
+                <label  class="col-sm-2 control-label"   id="username">用户名</label>
+                <div class="col-sm-5">
+                    <input type="text" autocomplete="off" name="username" class="form-control" />
+                </div>
+
+            </div>
+                <div class="form-group">
+                <label class="col-sm-2 control-label">密码</label>
+                <div class="col-sm-5">
+                    <input type="text" autocomplete="off" name="password" class="form-control" />
+                </div>
+
+            </div>
+                <!--<div class="form-group">-->
+                    <!--<label class="col-sm-2 control-label">确认密码</label>-->
+                    <!--<div class="col-sm-5">-->
+                        <!--<input type="text" autocomplete="off" name="repassword" class="form-control" />-->
+                        <!--<p class="help-block">请再次填写密码</p>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+                <div class="form-group">
+                    <button type="button" class="btn btn-success
+" style="margin-left:220px;width: 100px;">登录</button>
+                    <a href="" style="margin-left: 30px ">  新用户，马上注册</a>
+                    <!--<p style="padding-left: 160px ; padding-top: 30px"><a href="" >《使用协议说明书》</a></p>-->
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</div>
+<!--页脚-->
+<div class="row el-footer">
+    <div class="container">
+        <div class="col-sm-8">
+            <p>专业Ios Java培训、PHP培训、Android培训机构</p>
+            <p>版权所有：&emsp;2017广州小码哥教育科技有限公司</p>
+            <p>地&emsp;&emsp;址：&emsp;广州市天河区东涌东路306号（大地商务港）D座4楼</p>
+            <p>电&emsp;&emsp;话：&emsp;020-22092009
+                邮箱：&emsp;xiaomagehr@520it.com</p>
+            <p>
+                <a href="http://www.miitbeian.gov.cn">ICP备案 ：粤ICP备字15045471</a>&emsp;&emsp;<a
+                    href="http://www.gaj.chengdu.gov.cn">穗公网安备：44010650010086</a>
+            </p>
+            <div style="display: inline-block; overflow: hidden; float: left;"></div>
+        </div>
+        <div class="col-sm-2">
+            <div>
+                <p style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微博：</p>
+                <a href="http://t.qq.com/it-source" target="_blank"> <img
+                        src="images/tecent.png" alt="Responsive image">
+                </a> <a href="http://weibo.com/cditcast" target="_blank"> <img
+                    src="images/sina.png" alt="Responsive image">
+            </a>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <div>
+                <p
+                        style="padding-bottom: 15px; font-size: 14px; padding-left: 10px;">官方微信：</p>
+                <img src="images/wx.jpg" alt="Responsive image"
+                     class="img-responsive">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/bower_components/jquery.bootstrap.min.js"></script>
+<script src="lib/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+<script type="text/javascript">
+    <!--数据验证-->
+    $("#registerForm").bootstrapValidator({
+        message: 'This value is not valid',
+//   定义未通过验证的状态图标
+        feedbackIcons: {
+            /*输入框不同状态，显示图片的样式*/
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+//   字段验证
+        fields: {
+//    用户名
+            username: {
+                message: '用户名非法',
+                validators: {
+//      非空
+                    notEmpty: {
+                        message: '用户名不能为空'
+                    },
+//      限制字符串长度
+                    stringLength: {
+                        min: 3,
+                        max: 20,
+                        message: '用户名长度必须位于3到20之间'
+                    },
+//      基于正则表达是的验证
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_.]+$/,
+                        message: '用户名由数字字母下划线和.组成'
+                    }
+                }
+            },
+
+//    密码
+            password: {
+                message: '密码非法',
+                validators: {
+                    notEmpty: {
+                        message: '密码不能为空'
+                    },
+//      限制字符串长度
+                    stringLength: {
+                        min: 3,
+                        max: 20,
+                        message: '密码长度必须位于3到20之间'
+                    },
+//      相同性检测
+                    identical: {
+//       需要验证的field
+                        field: 'password',
+                        message: '两次密码输入不一致'
+                    },
+//      基于正则表达是的验证
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_.]+$/,
+                        message: '密码由数字字母下划线和.组成'
+                    }
+                }
+            },
+
+            //    确认密码
+            repassword: {
+                message: '密码非法',
+                validators: {
+                    notEmpty: {
+                        message: '密码不能为空'
+                    },
+//      限制字符串长度
+                    stringLength: {
+                        min: 3,
+                        max: 20,
+                        message: '密码长度必须位于3到20之间'
+                    },
+//      相同性检测
+                    identical: {
+//       需要验证的field
+                        field: 'password',
+                        message: '两次密码输入不一致'
+                    },
+//      基于正则表达是的验证
+                    regexp: {
+                        regexp: /^[a-zA-Z0-9_.]+$/,
+                        message: '密码由数字字母下划线和.组成'
+                    }
+                }
+            },
+        }
+    })
+
+
+
+//        }
+//                .on('success.form.bv',function (e) {
+//                    //ajax post方式的提交
+//                    $.post('server/success.json',$("#registerForm").serialize(),function (data) {
+//                        console.log(data.message);
+//                    })
+//                })
+//    })
+
+
+
+
+</script>
+<script type="text/javascript">
+    $('#contactUs').tooltip();
+</script>
+
+</body>
+</html>
